@@ -10,8 +10,8 @@
   /* Style the buttons that are used to open the tab content */
   .tab button {
     background-color: inherit;
-    max-width: 200px;
-    max-height: 100px;
+    width: 200px;
+    height: 100px;
     float: left;
     border: none;
     outline: none;
