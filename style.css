@@ -53,6 +53,17 @@
     font-family: Arial;
 
   }
+  #dietSelect{
+    font-size:x-large;
+    font-family: Arial;  
+  }
+  .block{
+    font-size:x-large;
+    font-family: Arial;
+    width: 200px;
+    height: 100px;
+      
+  }
   
       
   
