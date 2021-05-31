@@ -7,7 +7,7 @@ var products = [
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
-		price: 1.00
+		price: 1.55
 	},
 	{
 		name: " Brocoli",
@@ -21,63 +21,63 @@ var products = [
 		lactoseFree: true,
 		nutFree: true,
         organic: false,
-		price: 2.00
+		price: 2.35
 	},
     {
 		name: " Bread",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
-		price: 2.35
+		price: 2.99
 	},
     {
 		name: " Yogurt",
 		lactoseFree: false,
 		nutFree: true,
         organic: true,
-		price: 3.00
+		price: 3.55
 	},
     {
 		name: " Grapes",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
-		price: 3.00
+		price: 3.95
 	},
     {
 		name: " Milk",
 		lactoseFree: false,
 		nutFree: true,
         organic: true,
-		price: 4.00
+		price: 4.25
 	},
     {
 		name: " Ice Cream",
 		lactoseFree: false,
 		nutFree: true,
         organic: false,
-		price: 5.00
+		price: 5.35
 	},
     {
 		name: " Cashew",
 		lactoseFree: true,
 		nutFree: false,
         organic: true,
-		price: 5.00
+		price: 5.55
 	},
     {
 		name: " Almond Milk",
 		lactoseFree: true,
 		nutFree: false,
         organic: false,
-		price: 5.00
+		price: 5.99
 	},
 	{
 		name: " Salmon",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
-		price: 10.00
+		price: 10.55
 	},
 ];
 	
