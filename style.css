@@ -38,24 +38,18 @@
     background-color: #ddd;
     font-size:x-large;
     font-family: Arial;
-    background-color: #a1a1a1;
     box-shadow:#a1a1a1 ;
     text-shadow:#a1a1a1 ;
-    font-size:x-large;
-    font-family: Arial;
     border-radius: 4px;
   }
   
   /* Create an active/current tablink class */
   .tab button.active {
-    background-color: #ccc;
     font-size:x-large;
     font-family: Arial;
     background-color: #a1a1a1;
     box-shadow:#a1a1a1 ;
     text-shadow:#a1a1a1 ;
-    font-size:x-large;
-    font-family: Arial;
     border-radius: 4px;
   }
   
@@ -69,13 +63,12 @@
     font-size:x-large;
     box-shadow:#a1a1a1 ;
     text-shadow:#a1a1a1 ;
-    font-size:x-large;
-    font-family: Arial;
     border-radius: 4px;
   }
   .tablinks{
     font-size:x-large;
     font-family: Arial;
+    border-radius: 4px;
 
   }
   #dietSelect{
