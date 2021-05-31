@@ -14,7 +14,6 @@
   
   /* Style the buttons that are used to open the tab content */
   .tab button {
-    background-color: inherit;
     font-size:x-large;
     font-family: Arial;
     width: 100px;
@@ -26,10 +25,6 @@
     padding: 14px 16px;
     transition: 0.3s;
     background-color: #a1a1a1;
-    box-shadow:#a1a1a1 ;
-    text-shadow:#a1a1a1 ;
-    font-size:x-large;
-    font-family: Arial;
     border-radius: 4px;
   }
   
@@ -38,7 +33,6 @@
     background-color: #ddd;
     font-size:x-large;
     font-family: Arial;
-    border-radius: 4px;
   }
   
   /* Create an active/current tablink class */
@@ -48,7 +42,6 @@
     background-color: #a1a1a1;
     box-shadow:#a1a1a1 ;
     text-shadow:#a1a1a1 ;
-    border-radius: 4px;
   }
   
   /* Style the tab content */
