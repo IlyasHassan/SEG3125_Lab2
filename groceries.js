@@ -3,77 +3,77 @@
 
 var products = [
     {
-		name: " Orange (1.00 $)",
+		name: " Orange",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
 		price: 1.00
 	},
 	{
-		name: " Brocoli (1.99 $)",
+		name: " Brocoli",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
 		price: 1.99
 	},
     {
-		name: " Oatmeal (2.00 $)",
+		name: " Oatmeal",
 		lactoseFree: true,
 		nutFree: true,
         organic: false,
 		price: 2.00
 	},
     {
-		name: " Bread (2.35 $)",
+		name: " Bread",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
 		price: 2.35
 	},
     {
-		name: " Yogurt (3.00 $)",
+		name: " Yogurt",
 		lactoseFree: false,
 		nutFree: true,
         organic: true,
 		price: 3.00
 	},
     {
-		name: " Grapes (3.00 $)",
+		name: " Grapes",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
 		price: 3.00
 	},
     {
-		name: " Milk (4.00 $)",
+		name: " Milk",
 		lactoseFree: false,
 		nutFree: true,
         organic: true,
 		price: 4.00
 	},
     {
-		name: " Ice Cream (5.00 $)",
+		name: " Ice Cream",
 		lactoseFree: false,
 		nutFree: true,
         organic: false,
 		price: 5.00
 	},
     {
-		name: " Cashew (5.00 $)",
+		name: " Cashew",
 		lactoseFree: true,
 		nutFree: false,
         organic: true,
 		price: 5.00
 	},
     {
-		name: " Almond Milk (5.00 $)",
+		name: " Almond Milk",
 		lactoseFree: true,
 		nutFree: false,
         organic: false,
 		price: 5.00
 	},
 	{
-		name: " Salmon (10.00 $)",
+		name: " Salmon",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
@@ -90,16 +90,16 @@ function restrictListProducts(prods, restriction) {
 	let product_names = [];
 	for (let i=0; i<prods.length; i+=1) {
 		if ((restriction == "LactoseFree") && (prods[i].lactoseFree == true)){
-			product_names.push(prods[i].name + prods[i].price + "$");
+			product_names.push("(" + prods[i].name + prods[i].price + "$)");
 		}
 		else if ((restriction == "NutFree") && (prods[i].nutFree == true)){
-			product_names.push(prods[i].name);
+			product_names.push("(" + prods[i].name + prods[i].price + "$)");
 		}
         else if ((restriction == "Organic") && (prods[i].organic == true)){
-			product_names.push(prods[i].name);
+			product_names.push("(" + prods[i].name + prods[i].price + "$)");
 		}
 		else if (restriction == "None"){
-			product_names.push(prods[i].name);
+			product_names.push("(" + prods[i].name + prods[i].price + "$)");
 		}
 	}
 	return product_names;
