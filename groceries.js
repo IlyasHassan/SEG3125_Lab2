@@ -22,20 +22,20 @@ var products = [
 	},
     {
 		name: "milk",
-		lactoseFree: true,
-		nutFree: false,
+		lactoseFree: false,
+		nutFree: true,
 		price: 4.00
 	},
     {
 		name: "ice cream",
-		lactoseFree: true,
-		nutFree: false,
+		lactoseFree: false,
+		nutFree: true,
 		price: 5.00
 	},
     {
 		name: "yogurt",
-		lactoseFree: true,
-		nutFree: false,
+		lactoseFree: false,
+		nutFree: true,
 		price: 3.00
 	},
     {
@@ -47,7 +47,7 @@ var products = [
     {
 		name: "grapes",
 		lactoseFree: true,
-		nutFree: false,
+		nutFree: true,
 		price: 3.00
 	},
     {
@@ -59,13 +59,13 @@ var products = [
     {
 		name: "orange",
 		lactoseFree: true,
-		nutFree: false,
+		nutFree: true,
 		price: 1.00
 	},
     {
 		name: "oatmeal",
 		lactoseFree: true,
-		nutFree: false,
+		nutFree: true,
 		price: 2.00
 	},
 ];
