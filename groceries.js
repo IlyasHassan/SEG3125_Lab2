@@ -3,7 +3,7 @@
 
 var products = [
 	{
-		name: "brocoli",
+		name: " Brocoli",
 		lactoseFree: true,
 		nutFree: true,
 		price: 1.99
