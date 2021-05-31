@@ -5,6 +5,8 @@
     overflow: hidden;
     border: 1px solid rgb(255, 255, 255);
     background-color: #a1a1a1;
+    box-shadow:#a1a1a1 ;
+    text-shadow:#a1a1a1 ;
     font-size:x-large;
     font-family: Arial;
    
