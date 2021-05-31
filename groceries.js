@@ -6,66 +6,77 @@ var products = [
 		name: " Brocoli",
 		lactoseFree: true,
 		nutFree: true,
+        organic: true,
 		price: 1.99
 	},
 	{
 		name: " Bread",
 		lactoseFree: true,
 		nutFree: true,
+        organic: true,
 		price: 2.35
 	},
 	{
 		name: " Salmon",
 		lactoseFree: true,
 		nutFree: true,
+        organic: true,
 		price: 10.00
 	},
     {
 		name: " Milk",
 		lactoseFree: false,
 		nutFree: true,
+        organic: true,
 		price: 4.00
 	},
     {
 		name: " Ice Cream",
 		lactoseFree: false,
 		nutFree: true,
+        organic: true,
 		price: 5.00
 	},
     {
 		name: " Yogurt",
 		lactoseFree: false,
 		nutFree: true,
+        organic: true,
 		price: 3.00
 	},
     {
 		name: " Cashew (20)",
 		lactoseFree: true,
 		nutFree: false,
+        organic: true,
 		price: 5.00
 	},
     {
 		name: " Grapes",
 		lactoseFree: true,
 		nutFree: true,
+        organic: true,
 		price: 3.00
 	},
     {
 		name: " Almond Milk",
 		lactoseFree: true,
 		nutFree: false,
+        organic: true,
 		price: 5.00
 	},
     {
 		name: " Orange",
 		lactoseFree: true,
 		nutFree: true,
+        organic: true,
 		price: 1.00
 	},
     {
 		name: " Oatmeal",
 		lactoseFree: true,
 		nutFree: true,
+        organic: true,
 		price: 2.00
 	},
 ];
@@ -82,6 +93,9 @@ function restrictListProducts(prods, restriction) {
 			product_names.push(prods[i].name);
 		}
 		else if ((restriction == "NutFree") && (prods[i].nutFree == true)){
+			product_names.push(prods[i].name);
+		}
+        else if ((restriction == "Organic") && (prods[i].organic == true)){
 			product_names.push(prods[i].name);
 		}
 		else if (restriction == "None"){
