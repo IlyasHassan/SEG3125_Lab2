@@ -2,6 +2,13 @@
 // A set of ingredients should be added to products		 
 
 var products = [
+    {
+		name: " Orange (1.00 $)",
+		lactoseFree: true,
+		nutFree: true,
+        organic: true,
+		price: 1.00
+	},
 	{
 		name: " Brocoli (1.99 $)",
 		lactoseFree: true,
@@ -9,19 +16,33 @@ var products = [
         organic: true,
 		price: 1.99
 	},
-	{
+    {
+		name: " Oatmeal (2.00 $)",
+		lactoseFree: true,
+		nutFree: true,
+        organic: true,
+		price: 2.00
+	},
+    {
 		name: " Bread (2.35 $)",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
 		price: 2.35
 	},
-	{
-		name: " Salmon (10.00 $)",
+    {
+		name: " Yogurt (3.00 $)",
+		lactoseFree: false,
+		nutFree: true,
+        organic: true,
+		price: 3.00
+	},
+    {
+		name: " Grapes (3.00 $)",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
-		price: 10.00
+		price: 3.00
 	},
     {
 		name: " Milk (4.00 $)",
@@ -38,25 +59,11 @@ var products = [
 		price: 5.00
 	},
     {
-		name: " Yogurt (3.00 $)",
-		lactoseFree: false,
-		nutFree: true,
-        organic: true,
-		price: 3.00
-	},
-    {
 		name: " Cashew (5.00 $)",
 		lactoseFree: true,
 		nutFree: false,
         organic: true,
 		price: 5.00
-	},
-    {
-		name: " Grapes (3.00 $)",
-		lactoseFree: true,
-		nutFree: true,
-        organic: true,
-		price: 3.00
 	},
     {
 		name: " Almond Milk (5.00 $)",
@@ -65,19 +72,12 @@ var products = [
         organic: true,
 		price: 5.00
 	},
-    {
-		name: " Orange (1.00 $)",
+	{
+		name: " Salmon (10.00 $)",
 		lactoseFree: true,
 		nutFree: true,
         organic: true,
-		price: 1.00
-	},
-    {
-		name: " Oatmeal (2.00 $)",
-		lactoseFree: true,
-		nutFree: true,
-        organic: true,
-		price: 2.00
+		price: 10.00
 	},
 ];
 	
