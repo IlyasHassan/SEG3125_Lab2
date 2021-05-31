@@ -25,6 +25,12 @@
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    background-color: #a1a1a1;
+    box-shadow:#a1a1a1 ;
+    text-shadow:#a1a1a1 ;
+    font-size:x-large;
+    font-family: Arial;
+    border-radius: 4px;
   }
   
   /* Change background color of buttons on hover */
@@ -32,6 +38,12 @@
     background-color: #ddd;
     font-size:x-large;
     font-family: Arial;
+    background-color: #a1a1a1;
+    box-shadow:#a1a1a1 ;
+    text-shadow:#a1a1a1 ;
+    font-size:x-large;
+    font-family: Arial;
+    border-radius: 4px;
   }
   
   /* Create an active/current tablink class */
@@ -39,6 +51,12 @@
     background-color: #ccc;
     font-size:x-large;
     font-family: Arial;
+    background-color: #a1a1a1;
+    box-shadow:#a1a1a1 ;
+    text-shadow:#a1a1a1 ;
+    font-size:x-large;
+    font-family: Arial;
+    border-radius: 4px;
   }
   
   /* Style the tab content */
@@ -49,6 +67,12 @@
     border-top: none;
     font-family: Arial;
     font-size:x-large;
+    background-color: #a1a1a1;
+    box-shadow:#a1a1a1 ;
+    text-shadow:#a1a1a1 ;
+    font-size:x-large;
+    font-family: Arial;
+    border-radius: 4px;
   }
   .tablinks{
     font-size:x-large;
