@@ -20,7 +20,7 @@ var products = [
 		name: " Oatmeal (2.00 $)",
 		lactoseFree: true,
 		nutFree: true,
-        organic: true,
+        organic: false,
 		price: 2.00
 	},
     {
@@ -55,7 +55,7 @@ var products = [
 		name: " Ice Cream (5.00 $)",
 		lactoseFree: false,
 		nutFree: true,
-        organic: true,
+        organic: false,
 		price: 5.00
 	},
     {
@@ -69,7 +69,7 @@ var products = [
 		name: " Almond Milk (5.00 $)",
 		lactoseFree: true,
 		nutFree: false,
-        organic: true,
+        organic: false,
 		price: 5.00
 	},
 	{
