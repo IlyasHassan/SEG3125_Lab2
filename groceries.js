@@ -9,61 +9,61 @@ var products = [
 		price: 1.99
 	},
 	{
-		name: "bread",
+		name: " Bread",
 		lactoseFree: true,
 		nutFree: true,
 		price: 2.35
 	},
 	{
-		name: "salmon",
+		name: " Salmon",
 		lactoseFree: true,
 		nutFree: true,
 		price: 10.00
 	},
     {
-		name: "milk",
+		name: " Milk",
 		lactoseFree: false,
 		nutFree: true,
 		price: 4.00
 	},
     {
-		name: "ice cream",
+		name: " Ice Cream",
 		lactoseFree: false,
 		nutFree: true,
 		price: 5.00
 	},
     {
-		name: "yogurt",
+		name: " Yogurt",
 		lactoseFree: false,
 		nutFree: true,
 		price: 3.00
 	},
     {
-		name: "cashew (20)",
+		name: " Cashew (20)",
 		lactoseFree: true,
 		nutFree: false,
 		price: 5.00
 	},
     {
-		name: "grapes",
+		name: " Grapes",
 		lactoseFree: true,
 		nutFree: true,
 		price: 3.00
 	},
     {
-		name: "almond milk",
+		name: " Almond Milk",
 		lactoseFree: true,
 		nutFree: false,
 		price: 5.00
 	},
     {
-		name: "orange",
+		name: " Orange",
 		lactoseFree: true,
 		nutFree: true,
 		price: 1.00
 	},
     {
-		name: "oatmeal",
+		name: " Oatmeal",
 		lactoseFree: true,
 		nutFree: true,
 		price: 2.00
