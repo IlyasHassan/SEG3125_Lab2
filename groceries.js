@@ -90,7 +90,7 @@ function restrictListProducts(prods, restriction) {
 	let product_names = [];
 	for (let i=0; i<prods.length; i+=1) {
 		if ((restriction == "LactoseFree") && (prods[i].lactoseFree == true)){
-			product_names.push(prods[i].name);
+			product_names.push(prods[i].name + prods[i].price + "$");
 		}
 		else if ((restriction == "NutFree") && (prods[i].nutFree == true)){
 			product_names.push(prods[i].name);
